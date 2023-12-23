@@ -1,0 +1,35 @@
+.events{
+    &-title{
+        text-align: center;
+        font-size: 4vmin;
+        margin: 50px 0;
+        color: $thirdy-color;
+    }
+
+    &-row{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+        &-col{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            h4{
+                color: $thirdy-color;
+            }
+            p{
+                text-align: center;
+                color: $secondary-color;
+                font-size: 15px;
+
+            }
+            img{
+                width: 80%;
+                border-radius: 4px;
+            }
+        }
+    }
+}
